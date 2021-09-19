@@ -15,4 +15,5 @@ include:
 
 theme: jekyll-theme-minimal
 title: Abdolraouf Rahmani
-description: ![Photo](./UMISA_Profile_cropped.jpg) Committed and goal-driven student with academic knowdelge and intermediate experience spanning full range of software engineering, hardware, scripting, testing, and technical marketing across multiple platforms and environments. 
+logo: ./UMISA_Profile_cropped.jpg
+description: Committed and goal-driven student with academic knowdelge and intermediate experience spanning full range of software engineering, hardware, scripting, testing, and technical marketing across multiple platforms and environments. 
