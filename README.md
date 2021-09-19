@@ -4,7 +4,7 @@ This document showcases all projects that i have undertook. For the projects tha
 
 | Project Title                                         | Descriptive Tags |
 | -----------                                           | ----------- |
-| [Trafic Light Fault Monitoring Board](#trafic-fault)  | <span style="background-color:grey">Embedded</span> ,```Software Design```, ```Hardware Troubleshooting```, ```PCB with Liligo Board``` , `ESP8266 SoC` , `GSM`, `Wifi` , `Customer-driven`|
+| [Trafic Light Fault Monitoring Board](#trafic-fault)  | <span style="background-color:LightGray">Embedded</span> ,```Software Design```, ```Hardware Troubleshooting```, ```PCB with Liligo Board``` , `ESP8266 SoC` , `GSM`, `Wifi` , `Customer-driven`|
 | [Motor Safty Control System](#Motor-safty)            |  `Embedded`, `Software Design`, `FRDM-KL25Z` , `Mbed Enabled Hardware`, `ARM Cortex M0+` , `Assembly Language`|
 |                                                       |                                                     |
 
