@@ -1,4 +1,4 @@
-Make the iamge w=270 by h=250
+Make the iamge w=160 by h=150
 
 
 # Complete Porfolio
