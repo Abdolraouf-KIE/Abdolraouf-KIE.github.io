@@ -1,3 +1,4 @@
+
 # Complete Porfolio
 
 This document showcases all projects that i have undertook. For the projects that was completed when under contract with a company will only have a brief summary, on the otherhand other projects can be accessed. List of all the projects with tags to describe the project and/or my role in it is given below. 
