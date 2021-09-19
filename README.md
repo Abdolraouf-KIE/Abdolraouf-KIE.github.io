@@ -4,7 +4,7 @@ This document showcases all projects that i have undertook. For the projects tha
 
 | Project Title                                         | Descriptive Tags |
 | -----------                                           | ----------- |
-| [Trafic Light Fault Monitoring Board](#trafic-fault)  | <span style="background-color:MintCream">Embedded</span>, <span style="background-color:MintCream">Software Design</span>, <span style="background-color:MintCream">Hardware Troubleshooting</span>, <span style="background-color:MintCream">PCB with Liligo Board</span>, <span style="background-color:MintCream">ESP8266 SoC</span> , <span style="background-color:MintCream">GSM</span> , <span style="background-color:MintCream">Wifi</span> , <span style="background-color:MintCream">Customer-driven</span>|
+| [Trafic Light Fault Monitoring Board](#trafic-fault)  | <span style="background-color:MintCream">Embedded</span>, <span style="background-color:MintCream">Software Design</span>, <span style="background-color:MintCream">Hardware Troubleshooting</span>, <span style="background-color:MintCream">PCB with Liligo Board</span>, <span style="background-color:MintCream">ESP8266 SoC</span> , <span style="background-color:MintCream">GSM</span> , <span style="background-color:MintCream">Wifi</span> , <span style="background-color:MintCream">Customer-driven</span> |
 | [Motor Safty Control System](#Motor-safty)            |  `Embedded`, `Software Design`, `FRDM-KL25Z` , `Mbed Enabled Hardware`, `ARM Cortex M0+` , `Assembly Language`|
 |                                                       |                                                     |
 <span style="background-color:MintCream"></span>
