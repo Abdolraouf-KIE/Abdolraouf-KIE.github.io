@@ -7,8 +7,11 @@ This document showcases all projects that i have undertook. For the projects tha
 
 | Project Title                                         | Descriptive Tags |
 | -----------                                           | ----------- |
-| [Trafic Light Fault Monitoring Board](#trafic-fault)  | <span style="background-color:MintCream">Embedded</span>, <span style="background-color:MintCream">Software Design</span>, <span style="background-color:MintCream">Hardware Troubleshooting</span>, <span style="background-color:MintCream">PCB with Liligo Board</span>, <span style="background-color:MintCream">ESP8266 SoC</span> , <span style="background-color:MintCream">GSM</span> , <span style="background-color:MintCream">Wifi</span> , <span style="background-color:MintCream">Customer-driven</span> |
+| [Trafic Light Fault Monitoring Board](#trafic-fault)  | `Embedded`, `Software Design`, `Hardware Troubleshooting`, `PCB with Liligo Board`, `ESP8266 SoC` , `GSM` , `Wifi` , `Customer-driven` |
 | [Motor Safty Control System](#Motor-safty)            |  `Embedded`, `Software Design`, `FRDM-KL25Z` , `Mbed Enabled Hardware`, `ARM Cortex M0+` , `Assembly Language`|
+| [Web and Native Application for Student Grouping Dashboard](#Apps)            |  `Python`, `Software Design`, `Native App:Qt`, `Web App:django`|
+| [3 in a Row game in C++ using UnrealEnginge Script](#Unreal-Game)            |  `C++`, `Software Design`, `Game Dev`, `OOP`|
+| [3 in a Row game in C++ using UnrealEnginge Script](#Apps)            |  `C++`, `Software Design`, `Game Dev`, `OOP`|
 
 
 <br/>
