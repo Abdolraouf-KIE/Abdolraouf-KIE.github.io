@@ -7,12 +7,13 @@ This document showcases all projects that i have undertook. For the projects tha
 
 | Project Title                                         | Descriptive Tags |
 | -----------                                           | ----------- |
-| [Trafic Light Fault Monitoring Board](#trafic-fault)  | `Embedded`, `Software Design`, `Hardware Troubleshooting`, `PCB with Liligo Board`, `ESP8266 SoC` , `GSM` , `Wifi` , `Customer-driven` |
+| [Trafic Light Fault Monitoring Board](#trafic-fault)  | `Embedded`, `Software Design (platform io)`, `PCB with Liligo Board`, `ESP8266` , `GSM` , `Wifi` , `Customer-driven` |
 | [Motor Safty Control System](#Motor-safty)            |  `Embedded`, `Software Design`, `FRDM-KL25Z` , `Mbed Enabled Hardware`, `ARM Cortex M0+` , `Assembly Language`|
 | [Web and Native Application for Student Grouping Dashboard](#Apps)            |  `Python`, `Software Design`, `Native App:Qt`, `Web App:django`|
 | [3 in a Row game in C++ using UnrealEnginge Script](#Unreal-Game)            |  `C++`, `Software Design`, `Game Dev`, `OOP`|
-| [3 in a Row game in C++ using UnrealEnginge Script](#Apps)            |  `C++`, `Software Design`, `Game Dev`, `OOP`|
-
+| Wireless sensor network simulation using Linux parrallel Programing(#Apps)            |  `C`, `Software Design`, `Multithread`, `Multiprocess`, `Pthread`, `MPI`|
+| BJT Op-Amp Design for low voltage bio signals(#Apps)            |  `LTSpice`, `BJT`, `Circuit Design`, `Op-Amp`|
+| External Keyboard PCB Design(#Apps)            |  `Altium Designer`, `Layout design`, `Module-level Schematic Design`, `Op-Amp`|
 
 <br/>
 
