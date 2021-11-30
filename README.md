@@ -19,7 +19,8 @@ This document showcases majority of projects that i have undertook. For the proj
 | [Automatic Temperature Screening station using ESP32](#automatic-temperature-screening-station)            |  `ESP32`,`QR reader`, `platform io`, `GSM` , `working prototype designed`, `prototype was tested`|
 
 <br/>
-<br/>
+
+___
 
 ## Trafic Fault Detection
 
@@ -34,6 +35,8 @@ When trafic lights behave abnormally it is considered faulty and alerts are sent
 
 <br/>
 
+___
+
 ## Motor Safty
 
 Large motors and equipment require safty system to ensure the safty of user. For instance a motor should only turn on if its shield is closed. A simple system was desigend for such a safty system using ARM-enabled platform (simulated only). The system had the following functionality:
@@ -46,6 +49,8 @@ Large motors and equipment require safty system to ensure the safty of user. For
 
 <br/>
 
+___
+
 ## Python Application
 
 A simple python applicaton was designed for both native and web using QT and bjango respectivly. The project was done in team of 2 members.
@@ -53,6 +58,8 @@ A simple python applicaton was designed for both native and web using QT and bja
 **Repository Link**: https://gitlab.com/Murdock135/flask_groupjoin
 
 <br/>
+
+___
 
 ## Unreal Game
 
@@ -62,6 +69,8 @@ A 4 in a row game was developed using Unreal engine that uses C++ object oriente
 
 <br/>
 
+___
+
 ## C++ Snake Game
 
 Inorder to understand low level programing (compiling) and debugging tools (GDB debugger), this project was carried out. Unlike the game development in unreal engine this project made use of no game engine and only used the OpenGL graphics library. 
@@ -69,6 +78,8 @@ Inorder to understand low level programing (compiling) and debugging tools (GDB 
 **Repository Link**: https://github.com/Abdolraouf-KIE/SnakeGameC--
 
 <br/>
+
+___
 
 ## Wireless Sensor Network Simulator
 
@@ -78,6 +89,8 @@ This project was carried out to understand how parrallel programing works. This 
 
 <br/>
 
+___
+
 ## BLDC Control
 
 I was involved in a team responsible to develop an autonomous cart. I was responsible for controlling the brushless DC motor using an specific driver. Furthermore to allow the motor to be controlled for inverse kinematics a ROS package was developed for it.
@@ -85,6 +98,8 @@ I was involved in a team responsible to develop an autonomous cart. I was respon
 **Repository Link**: none; I obtained a certificate from the project manager.
 
 <br/>
+
+___
 
 ## External Keyboard PCB Design
 
@@ -94,6 +109,8 @@ This was done under REC workshop. The purpose was to learn PCB layout and compon
 
 <br/>
 
+___
+
 ## API for ILI9320 Display to show QR codes
 
 Chinese electronic products are known for bad documentation. Such device was the ILI9320 Display where there was no available library to use for programing the display. This project involved making such library. Furthermore it was desired to display QR codes for a particular text. Hence the libary developed also contained functionality to display text as QR codes.
@@ -101,6 +118,8 @@ Chinese electronic products are known for bad documentation. Such device was the
 **Repository Link**: It was a company project so reposity can not be shared. For quick demostration it can be shown in interview.
 
 <br/>
+
+___
 
 ## Automatic Temperature Screening station
 
