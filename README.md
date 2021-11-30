@@ -1,7 +1,7 @@
 [ ](#Make_the_imgae_w=160_by_h=150)
 
 
-# Complete Porfolio
+# Project Portfolio
 
 This document showcases (almost) all projects that i have undertook. For the projects that was completed with a company there will only be a brief summary, on the otherhand other projects can be accessed in github. List of all the projects with tags to describe the project and/or my role in it is given below. To get full project description click on the project title.
 
