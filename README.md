@@ -18,7 +18,7 @@ This document showcases all projects that i have undertook. For the projects tha
 | [Developing API for ILI9320 Display to show QR codes](#developing-api-for-ilt9320-display-to-show-qr-codes)            |  `ILI9320 Display`,`Platform io`, `Arduino`|
 | [Automatic Temperature Screening station using ESP32](#automatic-temperature-screening-station)            |  `ESP32`,`QR reader`, `platform io`, `GSM` , `working prototype designed`, `prototype was tested`|
 
-
+new
 ## Trafic Fault Detection
 
 ## Motor Safty
