@@ -8,9 +8,9 @@ This document showcases all projects that i have undertook. For the projects tha
 | Project Title                                         | Descriptive Tags |
 | -----------                                           | ----------- |
 | [Trafic Light Fault Monitoring Board](#trafic-fault-detection)  | `Embedded`, `Software Design`, `Hardware Troubleshooting`, `PCB with Liligo Board`, `ESP8266 SoC` , `GSM` , `Wifi` , `Customer-driven` |
-| [Motor Safty Control System](#Motor-safty)            |  `Embedded`, `Software Design`, `FRDM-KL25Z` , `Mbed Enabled Hardware`, `ARM Cortex M0+` , `Basic Assembly Language`|
+| [Motor Safty Control System](#motor-safty)            |  `Embedded`, `Software Design`, `FRDM-KL25Z` , `Mbed Enabled Hardware`, `ARM Cortex M0+` , `Basic Assembly Language`|
 | [Web and Native Application for Student Grouping Dashboard](#python-application)            |  `Python`, `Software Design`, `Native App:Qt`, `Web App:django`|
-| [3 in a Row game in C++ using UnrealEnginge Script](#Unreal-Game)            |  `C++`, `Software Design`, `UnrealEngine`, `OOP`|
+| [3 in a Row game in C++ using UnrealEnginge Script](#unreal-game)            |  `C++`, `Software Design`, `UnrealEngine`, `OOP`|
 | [Snake game in C++ Using OpenGL](#c-snake-game)            |  `C++`, `Software Design`, `Game Dev`, `No game engine`, `OpenGL` , `GNU debug tool`|
 | [Wireless Sensor Network Simulator](#wireless-sensor-network-simulator)            |  `Software Design`,`C`, `Parralle Programing`, `POSIX threads`, `MPI process`, `GDP debugging` , `GNU debug tool`|
 | [Brushless DC motor control using Odrive](#bldc-control)            |  `ROS`,`Odrive`, `Designed a ROS node`, `Motor controlled was used in AV cart`|
@@ -28,7 +28,7 @@ When trafic lights behave abnormlally it is considered faulty and aletrs must be
 - Device was made to operate as Wifi AP which would allow technicians or device installers to change device id, alerting mode, and phone number to be used for the SMS alerting mode. Furthermore a soft reset option was given for repair purposes.
 - Additonal error was added: The error was detected when two or more lights are on at a time.
 
-**Repository Link**: It was a compnay project so reposity can not be shared. For quick demostration it can be shown in interview. 
+**Repository Link**: It was a company project so reposity can not be shared. For quick demostration it can be shown in interview. 
 
 ## Motor Safty
 
@@ -75,3 +75,16 @@ I was involved in a team responsible to develop an autonomous cart. I was respon
 This was done under REC workshop. The purpose was to learn PCB layout and component selection. Using online resources, components were selected and using Altium Designer the PCB layout was designed. Due to chip shortage the PCB was only designed and it was not ordered.
 
 **Repository Link**: https://github.com/Abdolraouf-KIE/REC-Workshop---Stream-Deck
+
+## API for ILI9320 Display to show QR codes
+
+Chinese electronic products are known for bad documentation. Such device was the ILI9320 Display where there was no available library to use to be able for controlling display. This project involved making such library. Furthermore it was desired to display QR codes for particular text. Hence the libary developed also contained functionality to display text as QR codes.
+
+**Repository Link**: It was a company project so reposity can not be shared. For quick demostration it can be shown in interview.
+
+## Automatic Temperature Screening station
+
+With pandemic came reduced opportunity for many companies, however different opportunities arose. Such opportunity was designing an automatic temperature screenig with recording capability for schools. A system was desinged where student ID QR code is scanned and then temperature is taken and sent to the cloud. I developed and tested a functioning prototype.
+
+
+**Repository Link**: It was a company project so reposity can not be shared. For quick demostration it can be shown in interview.
