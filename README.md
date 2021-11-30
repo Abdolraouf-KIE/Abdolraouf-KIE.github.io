@@ -3,18 +3,22 @@ Make the iamge w=160 by h=150
 
 # Complete Porfolio
 
-This document showcases all projects that i have undertook. For the projects that was completed when under contract with a company will only have a brief summary, on the otherhand other projects can be accessed. List of all the projects with tags to describe the project and/or my role in it is given below. 
+This document showcases all projects that i have undertook. For the projects that was completed when a company there will only be a brief summary, on the otherhand other projects can be accessed in github. List of all the projects with tags to describe the project and/or my role in it is given below. 
 
 | Project Title                                         | Descriptive Tags |
 | -----------                                           | ----------- |
 | [Trafic Light Fault Monitoring Board](#trafic-fault)  | `Embedded`, `Software Design`, `Hardware Troubleshooting`, `PCB with Liligo Board`, `ESP8266 SoC` , `GSM` , `Wifi` , `Customer-driven` |
-| [Motor Safty Control System](#Motor-safty)            |  `Embedded`, `Software Design`, `FRDM-KL25Z` , `Mbed Enabled Hardware`, `ARM Cortex M0+` , `Assembly Language`|
+| [Motor Safty Control System](#Motor-safty)            |  `Embedded`, `Software Design`, `FRDM-KL25Z` , `Mbed Enabled Hardware`, `ARM Cortex M0+` , `Basic Assembly Language`|
 | [Web and Native Application for Student Grouping Dashboard](#Apps)            |  `Python`, `Software Design`, `Native App:Qt`, `Web App:django`|
-| [3 in a Row game in C++ using UnrealEnginge Script](#Unreal-Game)            |  `C++`, `Software Design`, `Game Dev`, `OOP`|
-| [3 in a Row game in C++ using UnrealEnginge Script](#Apps)            |  `C++`, `Software Design`, `Game Dev`, `OOP`|
-
-
-<br/>
+| [3 in a Row game in C++ using UnrealEnginge Script](#Unreal-Game)            |  `C++`, `Software Design`, `UnrealEngine`, `OOP`|
+| [Snake game in C++ Using OpenGL](#Apps)            |  `C++`, `Software Design`, `Game Dev`, `OOP`, `OpenGL` , `GNU debug tool`|
+| [Wireless Sensor Network Simulation](#Apps)            |  `Software Design`,`C`, `Parralle Programing`, `POSIX threads`, `MPI process`, `GDP debugging` , `GNU debug tool`|
+| [Brushless DC motor using Odrive](#Apps)            |  `ROS`,`Odrive`, `Designed a ROS node`, `Motor controlled was used in AV cart`|
+| [External Keyboard PCB Design](#Apps)            |  `Altium Designer`,`PCB layout`, `Atmega MCU`, `USB-powered`|
+| [](#Apps)            |  `Altium Designer`,`PCB layout`, `Atmega MCU`, `USB-powered`|
+| [External Keyboard PCB Design](#Apps)            |  `Altium Designer`,`PCB layout`, `Atmega MCU`, `USB-powered`|
+| [Developing API for ILI9320 Display to show QR codes](#Apps)            |  `ILI9320 Display`,`Platform io`, `Arduino`|
+| [Automatic Temperature Screening station using ESP32](#Apps)            |  `ESP32`,`QR reader`, `platform io`, `GSM` , `working prototype designed`, `prototype was tested`|
 
 Presently I am interested to take on Entry-level <b> Test Engineer </b> or <b> Hardware Engineer </b>, hence for ease of use by <b>recruiters</b> i have provided the following list of projects relevent for these jobs:
 1. [Trafic Light Fault Monitoring Board](#trafic-fault)
