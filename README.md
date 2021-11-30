@@ -7,26 +7,33 @@ This document showcases all projects that i have undertook. For the projects tha
 
 | Project Title                                         | Descriptive Tags |
 | -----------                                           | ----------- |
-| [Trafic Light Fault Monitoring Board](#trafic-fault)  | `Embedded`, `Software Design`, `Hardware Troubleshooting`, `PCB with Liligo Board`, `ESP8266 SoC` , `GSM` , `Wifi` , `Customer-driven` |
+| [Trafic Light Fault Monitoring Board](#trafic-fault-detection)  | `Embedded`, `Software Design`, `Hardware Troubleshooting`, `PCB with Liligo Board`, `ESP8266 SoC` , `GSM` , `Wifi` , `Customer-driven` |
 | [Motor Safty Control System](#Motor-safty)            |  `Embedded`, `Software Design`, `FRDM-KL25Z` , `Mbed Enabled Hardware`, `ARM Cortex M0+` , `Basic Assembly Language`|
-| [Web and Native Application for Student Grouping Dashboard](#Apps)            |  `Python`, `Software Design`, `Native App:Qt`, `Web App:django`|
+| [Web and Native Application for Student Grouping Dashboard](#python-application)            |  `Python`, `Software Design`, `Native App:Qt`, `Web App:django`|
 | [3 in a Row game in C++ using UnrealEnginge Script](#Unreal-Game)            |  `C++`, `Software Design`, `UnrealEngine`, `OOP`|
-| [Snake game in C++ Using OpenGL](#Apps)            |  `C++`, `Software Design`, `Game Dev`, `OOP`, `OpenGL` , `GNU debug tool`|
-| [Wireless Sensor Network Simulation](#Apps)            |  `Software Design`,`C`, `Parralle Programing`, `POSIX threads`, `MPI process`, `GDP debugging` , `GNU debug tool`|
-| [Brushless DC motor using Odrive](#Apps)            |  `ROS`,`Odrive`, `Designed a ROS node`, `Motor controlled was used in AV cart`|
-| [External Keyboard PCB Design](#Apps)            |  `Altium Designer`,`PCB layout`, `Atmega MCU`, `USB-powered`|
-| [](#Apps)            |  `Altium Designer`,`PCB layout`, `Atmega MCU`, `USB-powered`|
-| [External Keyboard PCB Design](#Apps)            |  `Altium Designer`,`PCB layout`, `Atmega MCU`, `USB-powered`|
-| [Developing API for ILI9320 Display to show QR codes](#Apps)            |  `ILI9320 Display`,`Platform io`, `Arduino`|
-| [Automatic Temperature Screening station using ESP32](#Apps)            |  `ESP32`,`QR reader`, `platform io`, `GSM` , `working prototype designed`, `prototype was tested`|
-
-Presently I am interested to take on Entry-level <b> Test Engineer </b> or <b> Hardware Engineer </b>, hence for ease of use by <b>recruiters</b> i have provided the following list of projects relevent for these jobs:
-1. [Trafic Light Fault Monitoring Board](#trafic-fault)
-2. [Motor Safty Control System](#Motor-safty)
-3. 
+| [Snake game in C++ Using OpenGL](#c-snake-game)            |  `C++`, `Software Design`, `Game Dev`, `No game engine`, `OpenGL` , `GNU debug tool`|
+| [Wireless Sensor Network Simulator](#wireless-sensor-network-simulator)            |  `Software Design`,`C`, `Parralle Programing`, `POSIX threads`, `MPI process`, `GDP debugging` , `GNU debug tool`|
+| [Brushless DC motor control using Odrive](#bldc-control)            |  `ROS`,`Odrive`, `Designed a ROS node`, `Motor controlled was used in AV cart`|
+| [External Keyboard PCB Design](#external-keyboard-pcb-design)            |  `Altium Designer`,`PCB layout`, `Atmega MCU`, `USB-powered`|
+| [Developing API for ILI9320 Display to show QR codes](#developing-api-for-ilt9320-display-to-show-qr-codes)            |  `ILI9320 Display`,`Platform io`, `Arduino`|
+| [Automatic Temperature Screening station using ESP32](#automatic-temperature-screening-station)            |  `ESP32`,`QR reader`, `platform io`, `GSM` , `working prototype designed`, `prototype was tested`|
 
 
-## Introduction
+## Trafic Fault Detection
+
+## Motor Safty
+
+## Python Application
+
+## Unreal-Game
+
+## C++ Snake Game
+
+## Wireless Sensor Network Simulator
+
+## BLDC Control
+
+## External Keyboard PCB Design
 
 This little guide demonstrates how to turn any [Github](http://github.com) repository with a bunch of [Markdown](https://en.wikipedia.org/wiki/Markdown) files into a simple website using [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
