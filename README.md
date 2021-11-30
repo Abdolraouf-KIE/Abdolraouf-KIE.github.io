@@ -3,7 +3,7 @@
 
 # Project Portfolio
 
-This document showcases (almost) all projects that i have undertook. For the projects that was completed with a company there will only be a brief summary, on the otherhand other projects can be accessed in github. List of all the projects with tags to describe the project and/or my role in it is given below. To get full project description click on the project title.
+This document showcases majority of projects that i have undertook. For the projects that was completed with a company there will only be a brief summary, on the otherhand other projects can be accessed in github. List of all the projects with tags to describe the project and/or my role in it is given below. To get full project description click on the project title.
 
 | Project Title                                         | Descriptive Tags |
 | -----------                                           | ----------- |
@@ -18,6 +18,8 @@ This document showcases (almost) all projects that i have undertook. For the pro
 | [Developing API for ILI9320 Display to show QR codes](#developing-api-for-ilt9320-display-to-show-qr-codes)            |  `ILI9320 Display`,`Platform io`, `Arduino`|
 | [Automatic Temperature Screening station using ESP32](#automatic-temperature-screening-station)            |  `ESP32`,`QR reader`, `platform io`, `GSM` , `working prototype designed`, `prototype was tested`|
 
+<br/>
+<br/>
 
 ## Trafic Fault Detection
 
@@ -30,6 +32,8 @@ When trafic lights behave abnormally it is considered faulty and alerts are sent
 
 **Repository Link**: It was a company project so reposity can not be shared. For quick demostration it can be shown in interview. 
 
+<br/>
+
 ## Motor Safty
 
 Large motors and equipment require safty system to ensure the safty of user. For instance a motor should only turn on if its shield is closed. A simple system was desigend for such a safty system using ARM-enabled platform (simulated only). The system had the following functionality:
@@ -40,11 +44,15 @@ Large motors and equipment require safty system to ensure the safty of user. For
 
 **Repository Link**: https://github.com/Abdolraouf-KIE/Motor-Safty-Control-System
 
+<br/>
+
 ## Python Application
 
 A simple python applicaton was designed for both native and web using QT and bjango respectivly. The project was done in team of 2 members.
 
 **Repository Link**: https://gitlab.com/Murdock135/flask_groupjoin
+
+<br/>
 
 ## Unreal Game
 
@@ -52,11 +60,15 @@ A 4 in a row game was developed using Unreal engine that uses C++ object oriente
 
 **Repository Link**: not available
 
+<br/>
+
 ## C++ Snake Game
 
 Inorder to understand low level programing (compiling) and debugging tools (GDB debugger), this project was carried out. Unlike the game development in unreal engine this project made use of no game engine and only used the OpenGL graphics library. 
 
 **Repository Link**: https://github.com/Abdolraouf-KIE/SnakeGameC--
+
+<br/>
 
 ## Wireless Sensor Network Simulator
 
@@ -64,11 +76,15 @@ This project was carried out to understand how parrallel programing works. This 
 
 **Repository Link**: https://github.com/Abdolraouf-KIE/tsunamiSimulation
 
+<br/>
+
 ## BLDC Control
 
 I was involved in a team responsible to develop an autonomous cart. I was responsible for controlling the brushless DC motor using an specific driver. Furthermore to allow the motor to be controlled for inverse kinematics a ROS package was developed for it.
 
 **Repository Link**: none; I obtained a certificate from the project manager.
+
+<br/>
 
 ## External Keyboard PCB Design
 
@@ -76,15 +92,20 @@ This was done under REC workshop. The purpose was to learn PCB layout and compon
 
 **Repository Link**: https://github.com/Abdolraouf-KIE/REC-Workshop---Stream-Deck
 
+<br/>
+
 ## API for ILI9320 Display to show QR codes
 
 Chinese electronic products are known for bad documentation. Such device was the ILI9320 Display where there was no available library to use for programing the display. This project involved making such library. Furthermore it was desired to display QR codes for a particular text. Hence the libary developed also contained functionality to display text as QR codes.
 
 **Repository Link**: It was a company project so reposity can not be shared. For quick demostration it can be shown in interview.
 
+<br/>
+
 ## Automatic Temperature Screening station
 
 With pandemic came reduced opportunity for many companies, however different opportunities arose as well. Such opportunity was designing an automatic temperature screenig with recording capability for schools. A system was desinged where student ID QR code is scanned and then temperature is taken and sent to the cloud. I developed and tested a functioning prototype that was powered by ESP32 MCU.
 
-
 **Repository Link**: It was a company project so reposity can not be shared. Demo video of product can be shown in interview.
+
+<br/>
