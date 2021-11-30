@@ -18,112 +18,60 @@ This document showcases all projects that i have undertook. For the projects tha
 | [Developing API for ILI9320 Display to show QR codes](#developing-api-for-ilt9320-display-to-show-qr-codes)            |  `ILI9320 Display`,`Platform io`, `Arduino`|
 | [Automatic Temperature Screening station using ESP32](#automatic-temperature-screening-station)            |  `ESP32`,`QR reader`, `platform io`, `GSM` , `working prototype designed`, `prototype was tested`|
 
-new
+
 ## Trafic Fault Detection
+
+When trafic lights behave abnormlally it is considered faulty and aletrs must be sent. For instance faults may be out of order lighting sequence or having two or more lights at a time. The old system could only detect out of sequence light switching error and the alert was sent using SMS to a particular phone number. The following function were added to the system:
+
+- A new alerting mode with use of internet (MQTT messaging) was added. This was more cost effective than SMS.
+- each device was assigned a unique ID for distiguishing between different devices.
+- Device was made to operate as Wifi AP which would allow technicians or device installers to change device id, alerting mode, and phone number to be used for the SMS alerting mode. Furthermore a soft reset option was given for repair purposes.
+- Additonal error was added: The error was detected when two or more lights are on at a time.
+
+**Repository Link**: It was a compnay project so reposity can not be shared. For quick demostration it can be shown in interview. 
 
 ## Motor Safty
 
+Large motors and equipment require safty system to ensure the safty of user. For instance a motor should only turn on if its shiled is closed. Furthermore the motor should not operate when its temperature exceeds a threshold. A simple system was desigend for such a safty system using ARM platform (simulated only). The system had the following functionality:
+
+- When temperature exceeds a threshold or lid is open, the motor is turned off.
+- The motor wouldn't start unless lid is closed.
+- Real time detection of all safty preaches using interupts
+
+**Repository Link**: https://github.com/Abdolraouf-KIE/Motor-Safty-Control-System
+
 ## Python Application
 
-## Unreal-Game
+A simple python applicaton was designed for both native and web using QT and bjango respectivly. The project was done in team of 2 members.
+
+**Repository Link**: https://gitlab.com/Murdock135/flask_groupjoin
+
+## Unreal Game
+
+A 4 in a row game was developed using Unreal engine that uses C++ object oriented programing. Multiple levels where added and a simple start menue was added.
+
+**Repository Link**: not available
 
 ## C++ Snake Game
 
+Inorder to understand low level programing (compiling) and debugging tools (GDB debugger), this project was carried out. Unlike the game development in unreal engine this project made use of no game engine and only used the OpenGL graphic library. 
+
+**Repository Link**: https://github.com/Abdolraouf-KIE/SnakeGameC--
+
 ## Wireless Sensor Network Simulator
+
+This project was carried out to understand how parrallel programing works. This knowledge would specialy become useful when using RTOS for MCUs. A wireless sensor network simulator would be run on Linux (C programing) and use multiple threads and multiple processors. The network is made up of a grid of nodes (each represented by different process) and the nodes communicate with eachother and do computation in parallel using multiple threads. See the repository for full design specification. The project was carried out in a team of 2.
+
+**Repository Link**: https://github.com/Abdolraouf-KIE/tsunamiSimulation
 
 ## BLDC Control
 
+I was involved in a team responsible to develop an autonomous cart. I was responsible for controlling the brushless DC motor using the an specifc driver. Furthermore to allow the motor to be controlled by other systems, the control was packaged into a ROS package. 
+
+**Repository Link**: none; I obtained a certificate from the organizer.
+
 ## External Keyboard PCB Design
 
-This little guide demonstrates how to turn any [Github](http://github.com) repository with a bunch of [Markdown](https://en.wikipedia.org/wiki/Markdown) files into a simple website using [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
+This was done under REC workshop. The purpose was to learn PCB layout and component selection. Using online resources, components were selected and using Altium Designer the PCB layout was designed. Due to chip shortage the PCB was only designed and it was not ordered.
 
-* You don't need to use the command line or anything other than your browser.
-* It doesn't require any knowledge in Jekyll.
-* It's completely compatible with any bunch of markdown files you already have in any existing repository without any modification to those files. That includes the basic `README.md` almost all repositories contain.
-* The markdown files will remain just as readable and usable in Github than in your website.
-
-In fact this guide uses the same configuration and can be read both in Github and in Github Pages, at your preference:
-
-* [Here is the link to the Github version](https://github.com/nicolas-van/easy-markdown-to-github-pages)
-* [Here is the link to the Github Pages version](https://nicolas-van.github.io/easy-markdown-to-github-pages/)
-
-## Step by step instructions
-
-### Determine the repository where you want to activate Github Pages
-
-You can of course create a new repository if you want.
-
-### Create the `_config.yml` file
-
-That file should be created on the root of your repository. Here is some content to copy-paste in it:
-
-```yaml
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
-```
-
-It's basically just a few tuning of Github Pages' default configuration to have a better handling of Markdown files.
-
-### Activate Github Pages in your repository configuration
-
-On the Github page of your project go into `Settings > Options > Github Pages`:
-
-![](./printscreen1.png)
-
-In the `Source` option, select `master branch` then `Save`:
-
-![](./printscreen2.png)
-
-You must also choose a theme:
-
-![](./printscreen3.png)
-
-That's it! Now you can just use the link provided by Github to access your website:
-
-![](./printscreen4.png)
-
-## Usage guide
-
-* Any markdown file in your repository will display in your Github Pages website. You just have to use the same path to access it and replace the `.md` extension by `.html`.
-* To make links between your Markdown files just use a relative path to the other Markdown file. The configuration you copy pasted in your `_config.yml` provides a plugin to convert those URLs. So your Markdown files will have correct links both in Github and Github Pages.
-* The index page of your website can be a `index.md` file or a `README.md` file. If both exists the `index.md` file has priority.
-* You should be able to use any [Github Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-## Known differences between Github and Github Pages
-
-* No automatic links with Github Pages. The Github Markdown renderer can automatically detect a simple copy-pasted link and make it a clickable link. Github Pages doesn't propose a feature to reproduce that behavior, so you'll have to braces your links with the `[]()` syntax.
-
-## Recipes
-
-Since the purpose of this guide is to demonstrate how to publish multiple Markdown files as a website but I don't have much more to say I will propose to you some delicious recipes instead:
-
-* [Escalivada](./recipes/Escalivada.md)
-* [Gazpacho](./recipes/Gazpacho.md)
-* [Pasta all'amatriciana](./recipes/Pasta_all_amatriciana.md)
-
-## Other Github Pages related projects
-
-I'm a fan of Github Pages for the possibilities it offers to anyone to publish a website for free. I have multiple projects that could be of interest if that's your case too:
-
-* [Bootstrap 4 Github Pages](https://nicolas-van.github.io/bootstrap-4-github-pages/)
-* [Parcel Github Pages Boilerplate](https://github.com/nicolas-van/parcel-github-pages-boilerplate)
-
-## Contributing
-
-See the [Contribution Guide](./CONTRIBUTING.md).
-
-## License
-
-See the [License File](./LICENSE.md).
+**Repository Link**: https://github.com/Abdolraouf-KIE/REC-Workshop---Stream-Deck
