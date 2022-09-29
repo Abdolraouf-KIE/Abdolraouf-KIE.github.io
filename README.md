@@ -17,7 +17,7 @@ This document showcases majority of projects that i have undertook. For the proj
 | [External Keyboard PCB Design](#external-keyboard-pcb-design)            |  `Altium Designer`,`PCB layout`, `Atmega MCU`, `USB-powered`|
 | [Developing API for ILI9320 Display to show QR codes](#developing-api-for-ilt9320-display-to-show-qr-codes)            |  `ILI9320 Display`,`Platform io`, `Arduino`|
 | [Automatic Temperature Screening station using ESP32](#automatic-temperature-screening-station)            |  `ESP32`,`QR reader`, `platform io`, `GSM` , `working prototype designed`, `prototype was tested`|
-| [Design of Constant g_m Current Mirror in 0.13um Tech Node](#Design-of-Constant-g_m-Current-Mirror-in-0.13um-Tech-Node)            |  `Mentor Graphic`,`IC Analog`, `Current Mirror`, `Supply independent`|
+| [Design of Constant g_m Current Mirror in 0.13um Tech Node](#Design-of-Constant-gm-Current-Mirror-in-0.13um-Tech-Node)            |  `Mentor Graphic`,`IC Analog`, `Current Mirror`, `Supply independent`|
 
 <br/>
 
@@ -132,7 +132,7 @@ With pandemic came reduced opportunity for many companies, however different opp
 
 ___
 
-## Design of Constant g_m Current Mirror in 0.13um Tech Node
+## Design of Constant gm Current Mirror in 0.13um Tech Node
 
 Reference current generator circuits must be designed so that they provide a constant current regardless of supply voltage variation. This project involved the systematic approach in design of such circuit using theory and aid from Mentor Graphic. By the end the design produced a reference current of 1uA with only 0.035u sensitivity to supply voltage of 1.2V.
 
